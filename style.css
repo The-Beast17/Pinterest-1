@@ -1,0 +1,268 @@
+*{
+    margin: 0%;
+    padding : 0%;
+    box-sizing : border-box;
+}
+
+html , body{
+    width : 100%;
+    height : 100%;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    width : 100%;
+    height : 100%;
+    background-color: #ffffff;
+    border-radius: 4vh;
+    padding : 1.5vw 1.5vw;
+}
+
+main .page1{
+    height : 100%;
+    width : 100%;
+    background-color: #f3f3f3 ;
+    border-radius: 2.5vw;
+}
+
+main nav {
+    display: flex;
+    justify-content: space-between;
+    padding :2vw 3vw;
+}
+
+main nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 0.3vw 0.5vw;
+    border-radius: 25px;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+main nav ul li{
+    display: flex;
+    align-items: center;
+    padding : 0.5vw 2vw;
+}
+
+main nav ul li img{
+    height :1.5vw;
+    border-radius: 50%;
+}
+
+main nav ul:last-child li:last-child{
+    background-color: black;
+    color:#ffffff;
+    border-radius: 7vh;
+    padding : 1vh  1vh;
+}
+
+main .page1 .content{
+    width : 100%;
+    height :100%;
+    display:flex;
+    padding :2vw 3vw;
+
+}
+
+main .page1 .content .left{
+    height :80%; 
+    width : 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.content .left p{
+    padding : 1vw 1vw;
+    font-family: Helvetica, sans-serif;
+    line-height: 3vh;
+
+}
+
+.content .left h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 8vw;
+    font-weight: 600;
+}
+
+.content .right {
+    width : 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.content .right img{
+    rotate: -10deg;
+    width : 35vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*page 2********************/
+
+.page2 {
+    /* height :5vw; */
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    padding : 4vw 0;
+}
+
+.page2 .content{
+    width : 45vw; 
+    font-size: 4.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+.page2 .img-box{
+    width : 4vw;
+}
+ 
+.page2 img{
+    object-fit: cover;
+    width : 3vw;
+    height : 3vw ;
+    border-radius: 50%;
+} 
+
+/*page3 *********************/
+.page3{
+    width : 100%;
+    height : 100%;
+    display:flex;
+    padding: 2vw 1vw;
+}
+
+.page3 .left {
+    width : 45%;
+    padding :2vw 2vw;
+}
+
+.page3 .left >.img-container {
+    border-radius : 2vw;
+    width : 100%;
+    height : 100%;
+    background-image:url("desk-4222025.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+.page3 .left .img-content{
+    width :100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page3 .left .img-content button{
+    background-color: black;
+    color: #ffffff;
+    padding : 0.9vw 2.5vw;
+    border-radius: 25px;
+    border:none;
+    font-size: 1vw;
+    font-weight: 600;
+    margin: 1.5vw;
+}
+
+.page3 .left .img-content i{
+    background-color: black;
+    color: #ffffff;
+    font-size: 2vw;
+    border-radius: 50%;
+}
+
+.page3 >.right{
+    width : 55%;
+    height:100%;
+}
+
+
+.page3 .right .up {
+    height : 50%;
+}
+
+.page3 .right .up .box1{
+    display: flex;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    padding : 2vw 1vw;
+}
+
+.page3 .right .up .box1 h1{
+    font-size: 1.4vw;
+    font-weight: 500;
+    margin-left :2vw;
+}
+
+.page3 .right .up .box1 p{
+    font-size: 1vw;
+    width : 17vw;
+    margin-left :17vw;
+}
+
+
+.page3 .right .up .box1 span{
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding : 0.5vw;
+    font-size: 0.8vw;
+}
+
+.page3 .right .down {
+    display :flex;
+    height : 45%;
+}
+
+.page3 .right .down .down-left{
+    width : 50%;
+    padding : 3vw;
+    font-size: 1vw;
+    display : flex;
+    align-items: end;
+}
+
+.page3 .right .down .down-right{
+    width :50%;
+    height : 100%;
+    padding :2vw;
+    display : flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.page3 .right .down .percent-box{
+    background-color: #00c670;
+    padding : 5%;
+    height : 15vw;
+    width : 15vw;
+    color : white;
+    border-radius : 2vw;
+}
+
+.page3 .right .down .percent-box h1{
+    font-size:4vw;
+    font-weight: 500;
+}
+.page3 .right .down .percent-box p{
+    font-size: 0.8vw;
+    padding-top : 40%; 
+}
+
+
+

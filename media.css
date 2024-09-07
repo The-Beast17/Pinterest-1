@@ -1,0 +1,41 @@
+@media(max-width : 600px){
+
+    main .page1 {
+        height : 35%;
+     }
+
+    main .page1 .content .left{
+        padding : 6vw 0;
+    }
+
+    main .page1 .content .left h1 {
+        font-size: 7vw;
+    } 
+    main .page1 .content .left p {
+        line-height: 2.5vw;
+        font-size: 2vw;
+    } 
+
+    main .page1 .content .right{
+       
+    }
+    main .page1 .content .right img{
+        padding-top : 10vw;
+        width : 40vw;
+    }
+
+    main .page2{
+        height : 30%;
+        display: flex;
+        align-items : center;
+    }
+
+    main .page3{
+        height : 35%;
+    }
+
+    main .page3 .right {
+        padding : 4vw 0;
+    }
+
+}
